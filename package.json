@@ -1,0 +1,42 @@
+{
+  "name": "bot-iaz",
+  "version": "1.0.0",
+  "description": "bot-iaz: Bot usando whatsapp-web.js, chatgpt e whisper.",
+  "main": "botiaz.js",
+  "scripts": {
+    "start": "node botiaz.js",
+    "start:dev": "nodemon botiaz.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp-api",
+    "node.js"
+  ],
+  "author": "Lucas Rodrigues Dias",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^4.6.0",
+    "actions-on-google": "^2.4.1",
+    "axios": "^1.5.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-validator": "^6.9.2",
+    "form-data": "^4.0.0",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "mime-types": "^2.1.32",
+    "mysql2": "^2.3.3",
+    "openai": "^4.0.0",
+    "path": "^0.12.7",
+    "qrcode": "^1.4.4",
+    "sequelize": "^6.32.1",
+    "socket.io": "2.3.0",
+    "util": "^0.12.4",
+    "whatsapp-web.js": "^1.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
